@@ -1,2 +1,2 @@
 # Sentiment-Analysis-Twitter-
-A Classification ML model that predicts the sentiment of people tweeting
+A Classification ML model that predicts the sentiment of people tweeting about games. The model generalizes you tweet as positive negative or a neutral comment. A big challenge while working witht his dataset(linked below) was that the massive 75k entries created nearly 21k features when tfidfvectorizer() was performed which slowed down the porcess of finding the best possible model. Thus feature selection was done to reduce dimentionality.
